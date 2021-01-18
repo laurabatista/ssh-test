@@ -10,8 +10,5 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
     - name: Run create_authorized_keys.py script
-      uses: jannekem/run-python-script-action@v1
-      with: 
-        script: python create_authorized_keys.py
-      # run: |
-      #   python create_authorized_keys.py
+      run: |
+        python create_authorized_keys.py
