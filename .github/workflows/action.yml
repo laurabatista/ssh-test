@@ -12,6 +12,6 @@ jobs:
     - name: Run create_authorized_keys.py script
       uses: jannekem/run-python-script-action@v1
       with: 
-        script: create_authorized_keys.py
+        script: python create_authorized_keys.py
       # run: |
       #   python create_authorized_keys.py
